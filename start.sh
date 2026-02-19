@@ -4,4 +4,3 @@ echo "Installing dependencies..."
 
 pip install -r requirements.txt
 cd src
-# uvicorn src.main:app --host 0.0.0.0 --port $PORT
