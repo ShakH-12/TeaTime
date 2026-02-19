@@ -1,1 +1,7 @@
-from src.main import app
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+async def home():
+	return { "ok": True }
